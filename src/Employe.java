@@ -43,4 +43,37 @@ public class Employe {
         this.age = age;
         this.salary = salary;
     }
+
+
+    public String toStringWithFinal() {
+        return "Employe{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", fathersName='" + fathersName + '\'' +
+                '}';
+    }
+
+    public String toStringFull() {
+        return "Employe{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", fathersName='" + fathersName + '\'' +
+                ", position='" + position + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", salary=" + salary +
+                '}';
+    }
+
+
+    public String toStringBuhgalter() {
+        return "Employe{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", fathersName='" + fathersName + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", salary=" + salary +
+                '}';
+    }
 }
